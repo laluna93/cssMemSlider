@@ -17,5 +17,44 @@ label{
   gap: 50px;
   justify-content: center;
   align-items: center;
-  text-align: center;
+}
+.slides{
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.arrowl{
+  display:none;
+}
+.arrowr{
+  display:none;
+}
+
+#slid-1:checked ~.block .left1{
+  display:block;
+}
+
+#slid-2:checked ~.block .left2{
+  display:block;
+}
+
+#slid-3:checked ~.block .left3{
+  display:block;
+}
+
+#slid-4:checked ~.block .left4{
+  display:block;
+}
+
+.arrow-R{
+  width: 20px;
+}
+.arrow-L{
+  width: 20px;
+}
+
+.picture{
+  width: 500px;
+  height: 600px;
 }

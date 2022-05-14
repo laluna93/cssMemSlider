@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+input[type=radio]{
+  display: none;
+}
+
+label{
+  cursor: pointer;
+}
+
+.box{
+  display: flex;
+  width: 700px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

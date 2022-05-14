@@ -11,6 +11,7 @@ label{
   cursor: pointer;
 }
 
+
 .box{
   display: flex;
   width: 700px;
@@ -71,35 +72,35 @@ label{
 
 #slid-1:checked ~ .block .picture1{
   display: block;
-  font-size: 35px;
+  font-size: 25px;
   transition: 1s;
   opacity: 5;
-  transition: 1s;
+  transition: 1.5s;
   transform: translateY(-1%);
 }
 
 #slid-2:checked ~ .block .picture2{
   display: block;
-  font-size: 35px;
-  transition: 1s;
+  font-size: 25px;
+  transition: 1.5s;
   transform: translateY(-101%);
-opacity: 5;
+  opacity: 5;
 }
 
 #slid-3:checked ~ .block .picture3{
   display: block;
-  font-size: 35px;
+  font-size: 25px;
   transform: translateY(-201%);
   opacity: 5;
-  transition: 1s;
+  transition: 1.5s;
 }
 
 #slid-4:checked ~ .block .picture4{
   display: block;
-  font-size: 35px;
-opacity: 5;
-transition: 1s;
-transform: translateY(-300%);
+  font-size: 25px;
+  opacity: 5;
+  transition: 1.5s;
+  transform: translateY(-300%);
 }
 
 .picture{
@@ -109,7 +110,7 @@ transform: translateY(-300%);
 
 .picture1{
   opacity: 0;
-transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 .picture2{
   opacity: 0;
@@ -120,4 +121,108 @@ transform: translateY(-100%);
 }
 .picture4{
   opacity: 0;
+}
+
+.box-bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.circle{
+  display: flex;
+  align-items: center;
+}
+.cir1{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.cir2{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cir3{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cir4{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.circle1{
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border-bottom-style: solid;
+  border: 1px solid aqua;
+}
+.circle2{
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border-bottom-style: solid;
+  border: 1px solid aqua;
+}
+.circle3{
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border-bottom-style: solid;
+  border: 1px solid aqua;
+}
+.circle4{
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  border-bottom-style: solid;
+  border: 1px solid aqua;
+}
+
+#slid-1:checked ~ .block .circle1{
+  background-color: aqua;
+}
+#slid-2:checked ~ .block .circle2{
+  background-color: aqua;
+}
+#slid-3:checked ~ .block .circle3{
+  background-color: aqua;
+}
+#slid-4:checked ~ .block .circle4{
+  background-color: aqua;
+}
+
+.text{
+  width: 480px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 0;
+}
+.text1{
+  margin-top: 10px;
+}
+.text2{
+  margin-top: 10px;
+}
+.text3{
+  margin-top: 10px;
+}
+.text4{
+  margin-top: 10px;
 }

@@ -5,6 +5,16 @@ background-repeat: round;
 background-size: cover;
 }
 
+.texts{
+  font-size: 1.688rem;
+  color:#000;
+}
+@media (min-width: 0) and (max-width: 48rem){
+  .texts{
+   display: none;
+  }
+}
+
 input[type=radio]{
   display: none;
 }
@@ -412,7 +422,7 @@ label{
   
   @media (min-width: 20rem) and (max-width: 26.312rem){
     .box-bottom{
-      margin-top: 41px;
+      margin-top: 2.563rem;
     }
   }
 

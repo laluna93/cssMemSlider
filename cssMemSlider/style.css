@@ -328,7 +328,7 @@ label{
   text-align: start;
   border-color: #17b8c1;
   border-style: dotted;
-
+  align-items: flex-start;
 }
 
 .text2{
@@ -339,6 +339,7 @@ label{
   text-align: start;
   border-color: #17b8c1;
   border-style: dotted;
+  align-items: flex-start;
 }
 
 .text3{
@@ -348,6 +349,7 @@ label{
   text-align: start;
   border-color: #17b8c1;
   border-style: dotted;
+  align-items: flex-start;
 }
 
 .text4{
@@ -358,6 +360,7 @@ label{
   text-align: start;
   border-color: #17b8c1;
   border-style: dotted;
+  align-items: flex-start;
 }
 
 .img{

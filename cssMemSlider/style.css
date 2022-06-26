@@ -46,54 +46,6 @@ label{
   max-height: 100%;
 }
 
-#slid-1:checked ~ .block .left4{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-2:checked ~ .block .left1{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-3:checked ~ .block .left2{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-4:checked ~ .block .left3{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-1:checked ~ .block .right2{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-2:checked ~ .block .right3{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-3:checked ~ .block .right4{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
-#slid-4:checked ~ .block .right1{
-  display:block;
-  display: flex;
-  align-items: center;
-}
-
 #slid-1:checked ~ .block .picture1{
   display: block;
   transition: 1s;
